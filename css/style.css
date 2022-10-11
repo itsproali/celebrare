@@ -1,5 +1,60 @@
+/* Import Font */
+@import url(//db.onlinewebfonts.com/c/e9eb497168c6c6da8b4a858fbe3f0e28?family=FiesoleTextW00-Regular);
+
+@font-face {
+    font-family: "FiesoleTextW00-Regular";
+    src: url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.eot");
+    src: url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.woff") format("woff"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.svg#FiesoleTextW00-Regular") format("svg");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "FiesoleTextW00-Regular";
+    min-height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Navbar */
+nav {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 2rem;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.nav-logo img {
+    max-width: 100%;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-divider {
+    width: 2px;
+    height: 25px;
+    background-color: gray;
+    margin: 0 10px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {}
