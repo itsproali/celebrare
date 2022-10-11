@@ -50,37 +50,60 @@
 
     <!-- Main -->
     <main class="container">
-        <div class="banner">
-            <h1 class="banner-heading">Digital Card Detail</h1>
-        </div>
-        <div class="banner-overlay">
-            <div class="banner-carousel">
-                <div id="carousel-images">
-                    <!-- <div class="image-wrapper">
+        <!-- Banner Section -->
+        <section>
+            <div class="banner">
+                <h1 class="banner-heading">Digital Card Detail</h1>
+            </div>
+            <div class="banner-overlay rounded-container">
+                <div class="banner-carousel">
+                    <div id="carousel-images">
+                        <!-- <div class="image-wrapper">
                         <img src="./assets/Page1.jpg" alt="page-1">
                     </div> -->
+                    </div>
+                    <div class="carousel-button-container">
+                        <button id="btn-1" class="carousel-button active-button"></button>
+                        <button id="btn-2" class="carousel-button"></button>
+                        <button id="btn-3" class="carousel-button"></button>
+                    </div>
                 </div>
-                <div class="carousel-button-container">
-                    <button id="btn-1" class="carousel-button active-button"></button>
-                    <button id="btn-2" class="carousel-button"></button>
-                    <button id="btn-3" class="carousel-button"></button>
+                <div class="">
+                    <h2 class="card-title">Card Title</h2>
+                    <div class="card-info d-flex align-items-center justify-content-between">
+                        <h3 class="text">$499 <span class="strikethrough">$2000</span></h3>
+                        <h3 class="text-success">75%Off</h3>
+                    </div>
+                    <p class="card-description"><b>Carousel</b> Swipe to change option isn't implemented yet. Try to
+                        change
+                        images using below buttons. Donec eu ornare mi. Sed finibus condimentum mauris, ut dictum eros
+                        maximus
+                        vitae.</p>
+                    <div class="my-4 mx-auto text-center">
+                        <button class="card-button">Try this Card</button>
+                    </div>
                 </div>
             </div>
-            <div class="">
-                <h2 class="card-title">Card Title</h2>
-                <div class="card-info d-flex align-items-center justify-content-between">
-                    <h3 class="text">$499 <span class="strikethrough">$2000</span></h3>
-                    <h3 class="text-success">75%Off</h3>
+        </section>
+
+        <!-- Feature Section -->
+        <section class="mt-5">
+            <h1 class="text-center fw-semibold pt-5 mb-2">Features</h1>
+            <div class="rounded-container">
+                <div class="">
+                    <div class="feature-img"></div>
+                    <h2 class="feature-text">Create your card <br> in just 5 mins</h2>
                 </div>
-                <p class="card-description"><b>Carousel</b> Swipe to change option isn't implemented yet. Try to change
-                    images using below buttons. Donec eu ornare mi. Sed finibus condimentum mauris, ut dictum eros
-                    maximus
-                    vitae.</p>
-                <div class="my-4 mx-auto text-center">
-                    <button class="card-button">Try this Card</button>
+                <div class="">
+                    <div class="feature-img"></div>
+                    <h2 class="feature-text">Customize the Text <br> with "Edit this page option"</h2>
+                </div>
+                <div class="">
+                    <div class="feature-img"></div>
+                    <h2 class="feature-text">Editing is available <br>after purchase also</h2>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Bootstrap JS -->
