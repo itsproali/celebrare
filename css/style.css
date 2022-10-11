@@ -7,6 +7,7 @@
     src: url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.woff") format("woff"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e9eb497168c6c6da8b4a858fbe3f0e28.svg#FiesoleTextW00-Regular") format("svg");
 }
 
+/* Common CSS */
 * {
     margin: 0;
     padding: 0;
@@ -96,14 +97,8 @@ nav {
 
 }
 
-
 .banner-carousel {
     width: 100%;
-}
-
-#carousel-images {
-    transition: .3s linear;
-    position: relative;
 }
 
 .image-wrapper {
@@ -145,7 +140,7 @@ nav {
 }
 
 .card-button {
-    padding: 10px 25px;
+    padding: 15px 25px;
     background-color: black;
     color: white;
     font-size: 30px;
@@ -154,7 +149,6 @@ nav {
     transition: .3s;
     box-shadow: 2px 2px 10px 2px lightgray;
 }
-
 
 .card-button:active {
     transform: scale(.9);
@@ -175,17 +169,40 @@ nav {
     border-radius: 50%;
     filter: blur(10px);
     margin: 20px auto;
+}
 
+.feature-text {
+    text-align: center;
+}
+
+
+/* Footer Section */
+.footer {
+    border-top: 2px solid lightgray;
+    padding: 10px 0;
 }
 
 /* Responsive */
 
 @media only screen and (max-width: 768px) {
 
-    /* Banner Section */
+    /* Common */
     .rounded-container {
         flex-direction: column;
         width: 95%;
         padding: 20px;
+    }
+
+    /* Feature Section */
+    .feature {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .feature-text {
+        text-align: left;
+        font-size: 20px;
     }
 }
